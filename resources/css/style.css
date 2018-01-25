@@ -31,9 +31,9 @@ header h3 {
   color: white;
   padding-left: 1rem;
 }
+
 /* main banner */
 .main-banner {
-  display: flex;
   height: 25rem;
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg);
   background-repeat: no-repeat;
@@ -43,12 +43,11 @@ header h3 {
 
 .promo {
   background-color: black;
-  padding-top: 9rem;
-  padding-left: 7rem;
+  padding: 2em 3em;
   width: 20rem;
   font-family: Helvetica;
   font-weight: bold;
-  align-self: center;
+  position: relative;
 }
 
 .promo h3 {
