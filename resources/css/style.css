@@ -24,3 +24,21 @@ header h3 {
   padding-bottom: 0.66rem;
   color: white;
 }
+/* main banner */
+.main-banner {
+  height: 25rem;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg);
+}
+.promo {
+  background-color: black;
+  padding-top: 9rem;
+  width: 20rem;
+  font-family: Helvetica;
+  font-weight: bold;
+}
+.promo h3 {
+  font-size: 1rem;
+}
+.promo h2 {
+  font-size: 2rem;
+}
