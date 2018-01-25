@@ -23,22 +23,52 @@ header h3 {
   padding-top: 0.66rem;
   padding-bottom: 0.66rem;
   color: white;
+  padding-left: 1rem;
 }
 /* main banner */
 .main-banner {
+  display: flex;
+  align-items: center;
   height: 25rem;
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
+
 .promo {
   background-color: black;
   padding-top: 9rem;
+  padding-left: 7rem;
   width: 20rem;
   font-family: Helvetica;
   font-weight: bold;
 }
+
 .promo h3 {
   font-size: 1rem;
 }
+
 .promo h2 {
   font-size: 2rem;
+}
+
+/* navigation bar */
+
+nav {
+  background-color: firebrick;
+}
+nav span {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  color: white;
+}
+/* main content */
+.content-container {
+  display: flex;
+  flex-direction: column;
+}
+.highlights {
+  display: flex;
+  justify-content: space-around;
 }
