@@ -60,7 +60,7 @@ header h3 {
 nav {
   background-color: firebrick;
 }
-nav span {
+a {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
   color: white;
@@ -100,7 +100,7 @@ nav span {
   justify-content: space-between;
   padding-bottom: 4rem;
 }
-.content .info {
+.contact .info {
   padding-left: 2rem;
   background-color: black;
   color: white;
@@ -110,6 +110,6 @@ nav span {
 footer {
   height: 5rem;
   text-align: left;
-
-
+  background-color: black;
+  color: white;
 }
