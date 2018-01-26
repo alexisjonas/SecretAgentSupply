@@ -1,5 +1,16 @@
+/* universal styles */
 html {
   font-size: 18px;
+}
+
+h1,
+h4 {
+  font-weight: bold;
+}
+
+body {
+  font-family: Helvetica;
+  line-height: 0.25rem;
 }
 
 .container {
@@ -12,24 +23,16 @@ header {
   background-color: black;
   color: white;
 }
+
 header .container {
   display: flex;
   align-items: center;
-  padding: 12px 0 12px 0.5em;
-}
-.container img {
-  height: 1.5rem;
-  padding-right: 15px;
+  padding: 0.66rem 0 0.66rem 0.5rem;
 }
 
-header h3 {
-  display: inline;
-  font-family: Helvetica;
-  font-size: 1rem;
-  padding-top: 0.66rem;
-  padding-bottom: 0.66rem;
-  color: white;
-  padding-left: 1rem;
+.container img {
+  height: 1.5rem;
+  padding-right: 1rem;
 }
 
 /* main banner */
@@ -45,34 +48,28 @@ header h3 {
   background-color: black;
   padding: 2rem 3rem;
   width: 20rem;
-  font-family: Helvetica;
   font-weight: bold;
-
-  margin-top: 9rem;
-}
-
-.promo h3 {
-  font-size: 1rem;
-  padding-bottom: 0.25rem;
   color: white;
+  top: 9rem;
+  position: relative;
 }
 
 .promo h2 {
   font-size: 2rem;
+  margin: 0.25rem 0;
 }
 
 /* navigation bar */
 
 nav {
   background-color: firebrick;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.75rem 0;
 }
 
-nav a {
-  align-items: space-between;
-  color: white;
-  padding-top: 0.75rem;
-  padding-bottom: 0.75rem;
-}
 /* main content */
 
 .highlights {
@@ -86,24 +83,32 @@ nav a {
 }
 
 .product img {
-  height: 9rem;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
   border: 4px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 9rem;
+  padding: 2rem 0;
 }
 
 .product span {
   display: block;
   background-color: black;
   color: white;
-  padding-top: 0.5em;
+  padding-top: 0.5rem;
+  text-align: center;
+}
+
+.product img {
+  max-width: 8rem;
 }
 /* contact */
+
 .contact {
   display: flex;
   justify-content: space-between;
-  padding-top: 3rem;
-  padding-bottom: 4rem;
+  margin-top: 3rem;
+
   width: 35%;
 }
 
@@ -124,4 +129,6 @@ footer {
   text-align: left;
   background-color: black;
   color: white;
+  padding: 5rem 0;
+  margin-top: 4rem;
 }
