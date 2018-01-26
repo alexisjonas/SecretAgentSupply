@@ -43,15 +43,18 @@ header h3 {
 
 .promo {
   background-color: black;
-  padding: 2em 3em;
+  padding: 2rem 3rem;
   width: 20rem;
   font-family: Helvetica;
   font-weight: bold;
-  position: relative;
+
+  margin-top: 9rem;
 }
 
 .promo h3 {
   font-size: 1rem;
+  padding-bottom: 0.25rem;
+  color: white;
 }
 
 .promo h2 {
@@ -62,21 +65,20 @@ header h3 {
 
 nav {
   background-color: firebrick;
-  color: white;
 }
 
-nav span {
+nav a {
+  align-items: space-between;
+  color: white;
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
-  align-items: center;
-
 }
 /* main content */
 
 .highlights {
   display: flex;
   justify-content: space-between;
-  margin: 3em 0 0 0;
+  margin-top: 3em;
 }
 
 .product {
@@ -85,14 +87,12 @@ nav span {
 
 .product img {
   height: 9rem;
-  padding: 2em 0;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
   border: 4px solid black;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
-.product h4 {
+.product span {
   display: block;
   background-color: black;
   color: white;
@@ -102,19 +102,19 @@ nav span {
 .contact {
   display: flex;
   justify-content: space-between;
-  padding-bottom: 3em 0 0 0;
-}
-
-.contact .info {
+  padding-top: 3rem;
+  padding-bottom: 4rem;
   width: 35%;
 }
 
+
 .info h4 {
   display: block;
-  padding: 1em 2em;
+  padding: 1rem 2rem;
   background-color: black;
   color: white;
 }
+
 .info p {
   font-family: Helvetica;
 }
