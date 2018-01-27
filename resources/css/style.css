@@ -79,7 +79,7 @@ nav ul {
 
 /* main content */
 
-.highlights {
+.products, .business-info {
   display: flex;
   justify-content: space-between;
   margin-top: 3rem;
@@ -104,18 +104,12 @@ nav ul {
   display: block;
   background-color: black;
   color: white;
-  padding-top: 0.5rem;
+  padding: 0.5rem;
   text-align: center;
 }
 
 /* contact */
 
-.business-info {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 3rem;
-
-}
 .info {
   width: 35%;
 }
