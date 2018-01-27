@@ -89,17 +89,18 @@ nav ul {
   width: 30%;
 }
 
-.product img {
+.product-img {
   border: 4px solid black;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 9rem;
   padding: 2rem 0;
+}
+.product-img img {
   max-width: 8rem;
 }
-
-.product span {
+.discription {
   display: block;
   background-color: black;
   color: white;
@@ -109,15 +110,17 @@ nav ul {
 
 /* contact */
 
-.contact {
+.business-info {
   display: flex;
   justify-content: space-between;
   margin-top: 3rem;
+
+}
+.info {
   width: 35%;
 }
 
-
-.info span {
+.info .title {
   display: block;
   padding: 1rem 2rem;
   background-color: black;
